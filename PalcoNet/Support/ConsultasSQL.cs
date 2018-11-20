@@ -273,7 +273,7 @@ namespace PalcoNet.Support
         {
             string nombreUserCreado;
 
-            nombreUserCreado = nombre.Replace(" ", "_") + apellido.Replace(" ", "_");
+            nombreUserCreado = nombre.Replace(" ", "_") +"_" + apellido.Replace(" ", "_");
 
             if (caso == false) {
                 if (tipo == "Cliente") {
