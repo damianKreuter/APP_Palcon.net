@@ -117,10 +117,93 @@ IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.canj
 
 IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.UserXRol'))
     DROP TABLE SQLEADOS.UserXRol
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.UsuarioXRol'))
+    DROP TABLE SQLEADOS.UsuarioXRol
 	
 IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.func_coincide_fecha_creacion'))
     DROP TABLE SQLEADOS.func_coincide_fecha_creacion
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[actualizarContra]'))
+    DROP proc SQLEADOS.[actualizarContra]
 	
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[ValidarUsuario]'))
+    DROP proc SQLEADOS.[ValidarUsuario]
+	
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[inhabilitarRolPorUsuario]'))
+    DROP proc SQLEADOS.[inhabilitarRolPorUsuario]
+	
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[inhabilitarRol]'))
+    DROP proc SQLEADOS.[inhabilitarRol]
+	
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[cargarRolesHabilitados]'))
+    DROP proc SQLEADOS.[cargarRolesHabilitados]
+	
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[eliminarFuncionalidades]'))
+    DROP proc SQLEADOS.[eliminarFuncionalidades]
+	
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[modificarRol]'))
+    DROP proc SQLEADOS.[modificarRol]
+	
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[FuncionalidadesPorRol]'))
+    DROP proc SQLEADOS.[FuncionalidadesPorRol]
+	
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[rolHabilitado]'))
+    DROP proc SQLEADOS.[rolHabilitado]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[cargarRoles]'))
+    DROP proc SQLEADOS.[cargarRoles]
+	
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[codigoFuncionalidad]'))
+    DROP proc SQLEADOS.[codigoFuncionalidad]
+		
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[crearFuncionalidad]'))
+    DROP proc SQLEADOS.[crearFuncionalidad]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[codigoRol]'))
+    DROP proc SQLEADOS.[codigoRol]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[crearRolNuevo]'))
+    DROP proc SQLEADOS.[crearRolNuevo]
+
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[NombreRoles]'))
+    DROP proc SQLEADOS.[Nombreroles]
+
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[bloquearUsuario]'))
+    DROP proc SQLEADOS.[bloquearUsuario]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[esAdministrador]'))
+    DROP proc SQLEADOS.[esAdministrador]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[cargarClientesEliminar]'))
+    DROP proc SQLEADOS.[cargarClientesEliminar]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[existeRol]'))
+    DROP proc SQLEADOS.[existeRol]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[ValidarContra]'))
+    DROP proc SQLEADOS.[ValidarContra]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[listarFuncionalidades]'))
+    DROP proc SQLEADOS.[listarFuncionalidades]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[agregarIntentoFallidos]'))
+    DROP proc SQLEADOS.[agregarIntentoFallidos]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[resetearIntentoFallidos]'))
+    DROP proc SQLEADOS.[resetearIntentoFallidos]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[estaBloqueado]'))
+    DROP proc SQLEADOS.[estaBloqueado]
+
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[habilitarRol]'))
+    DROP proc SQLEADOS.[habilitarRol]
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'SQLEADOS.[intentosFallidos]'))
+    DROP proc SQLEADOS.[intentosFallidos]
 ----------------------------------------------------------------------------------------------
 								/** CREACION de tablas **/
 ----------------------------------------------------------------------------------------------
@@ -147,17 +230,35 @@ create table [SQLEADOS].Usuario(
 usuario_Id int primary key identity,
 usuario_nombre varchar(255)  not null, --SACO EL UNIQUE ASÍ PUEDE ANDAR EL TRIGGER
 usuario_password varbinary(100) not null,
-usuario_tipo varchar(20) not null,
-usuario_estado int default 1, --Indicador para saber si está habilitado o no
-usuario_logins_fallidos int default 0, --Como es un contador de intentos fallidos que cuenta hasta 3, iniciará en 0
-usuario_fecha_creacion datetime
+usuario_rol int not null references [SQLEADOS].Rol,
+usuario_administrador bit default 0,
+usuario_estado bit default 1, --Indicador para saber si está habilitado o no
+usuario_intentos int default 0, --Como es un contador de intentos fallidos que cuenta hasta 3, iniciará en 0
 )
 
 
-create table [SQLEADOS].UserXRol(
-userXRol_rol int not null references [SQLEADOS].Rol,
-userXRol_usuario int not null references [SQLEADOS].Usuario
+create table [SQLEADOS].UsuarioXRol(
+usuarioXRol_usuario int NOT NULL,
+usuarioXRol_rol int NOT NULL,
+PRIMARY KEY(usuarioXRol_usuario, usuarioXRol_rol),
+CONSTRAINT fk_rpu_username FOREIGN KEY (usuarioXRol_usuario) REFERENCES [SQLEADOS].Usuario (Usuario_Id),
+CONSTRAINT fk_rpu_codigo_rol FOREIGN KEY (usuarioXRol_rol) REFERENCES [SQLEADOS].Rol (rol_id)
 )
+GO
+
+
+--create table [SQLEADOS].UserXRol(
+--userXRol_rol int not null references [SQLEADOS].Rol,
+--userXRol_usuario int not null references [SQLEADOS].Usuario
+--)
+
+--usuario_tipo varchar(20) not null,
+--usuario_estado int default 1, --Indicador para saber si está habilitado o no
+--usuario_logins_fallidos int default 0, --Como es un contador de intentos fallidos que cuenta hasta 3, iniciará en 0
+--usuario_fecha_creacion datetime
+--)
+
+
 
 
 create table [SQLEADOS].Cliente(
@@ -421,65 +522,70 @@ PRINT('PASA A DOMICILIO')
 
 PRINT('POR A USER') 
 go
-insert into SQLEADOS.Usuario(usuario_nombre, usuario_password,usuario_tipo, usuario_fecha_creacion) values
+insert into SQLEADOS.Usuario(usuario_nombre, usuario_password,usuario_estado, usuario_administrador) values
 ('admin',
 HASHBYTES('SHA2_256', 'pass123'),
-'Administrativo',
-GETDATE()
-)
-
---Usuarios clientes
-PRINT('POR A CLIENTE') 
+1,
+1)
 go
-insert into SQLEADOS.Usuario(usuario_nombre, usuario_password,
-	usuario_tipo, usuario_fecha_creacion)
-select distinct 
-	(LOWER(replace(A.Cli_Nombre, space(1), '_'))+'_'+A.Cli_Apeliido), -- as nombre_user
-	(select top 1 HASHBYTES('SHA2_256', (select top 1 STR(10000000*RAND(convert(varbinary, newid()))) magic_number))), 
-	--  contraseñas_autogeneradas,
-	--CONTRASEÑA AUTOGENERADA DE FORMA NUMÉRICA DECIMAL, ES POCO PROBABLE QUE SE REPITA, está entre 1 y 100000
-	'Cliente', -- as tipo_user --TIPO USER
-	GETDATE()
-	from gd_esquema.Maestra A 
-	where A.cli_mail is not null order by 1
+
+insert into SQLEADOS.UsuarioXRol(usuarioXRol_rol, usuarioXRol_usuario)
+select rol_Id, usuario_Id 
+from SQLeados.Usuario, SQLeados.Rol
+where usuario_nombre like 'admin' and rol_nombre in ('Administrativo','Empresa','Cliente')
+go
+----Usuarios clientes
+--PRINT('POR A CLIENTE') 
+--go
+--insert into SQLEADOS.Usuario(usuario_nombre, usuario_password,
+--	usuario_tipo, usuario_fecha_creacion)
+--select distinct 
+--	(LOWER(replace(A.Cli_Nombre, space(1), '_'))+'_'+A.Cli_Apeliido), -- as nombre_user
+--	(select top 1 HASHBYTES('SHA2_256', (select top 1 STR(10000000*RAND(convert(varbinary, newid()))) magic_number))), 
+--	--  contraseñas_autogeneradas,
+--	--CONTRASEÑA AUTOGENERADA DE FORMA NUMÉRICA DECIMAL, ES POCO PROBABLE QUE SE REPITA, está entre 1 y 100000
+--	'Cliente', -- as tipo_user --TIPO USER
+--	GETDATE()
+--	from gd_esquema.Maestra A 
+--	where A.cli_mail is not null order by 1
 	
---Usuarios Empresas
-PRINT('POR A EMPRESA') 
-go
-insert into SQLEADOS.Usuario (usuario_nombre, usuario_password,usuario_tipo, usuario_fecha_creacion)
-select distinct 
-	(LOWER(replace(Espec_Empresa_Razon_Social, space(1), '_'))), --NOMBRE 
-	(select top 1 HASHBYTES('SHA2_256', (select top 1 STR(10000000*RAND(convert(varbinary, newid()))) magic_number))), --contraseñas_autogeneradas
-	'Empresa',
-	GETDATE()
-	from gd_esquema.Maestra
+----Usuarios Empresas
+--PRINT('POR A EMPRESA') 
+--go
+--insert into SQLEADOS.Usuario (usuario_nombre, usuario_password,usuario_tipo, usuario_fecha_creacion)
+--select distinct 
+--	(LOWER(replace(Espec_Empresa_Razon_Social, space(1), '_'))), --NOMBRE 
+--	(select top 1 HASHBYTES('SHA2_256', (select top 1 STR(10000000*RAND(convert(varbinary, newid()))) magic_number))), --contraseñas_autogeneradas
+--	'Empresa',
+--	GETDATE()
+--	from gd_esquema.Maestra
 
 
 
--- USERXROL
-PRINT('POR A USERXROL ADMIN') 
--- ADMIN
+---- USERXROL
+--PRINT('POR A USERXROL ADMIN') 
+---- ADMIN
 
-go 
-insert into SQLEADOS.UserXRol(userXRol_rol,userXRol_usuario)
-select distinct 0, u.usuario_Id from SQLEADOS.Usuario u
-	WHERE u.usuario_nombre LIKE 'admin'
+--go 
+--insert into SQLEADOS.UserXRol(userXRol_rol,userXRol_usuario)
+--select distinct 0, u.usuario_Id from SQLEADOS.Usuario u
+--	WHERE u.usuario_nombre LIKE 'admin'
 
- --EMPRESAS
- PRINT('USERXROL EMPRESA') 
-go
-insert into SQLEADOS.UserXRol(userXRol_rol,userXRol_usuario)
-select distinct 1,u.usuario_Id from SQLEADOS.Usuario u
-	INNER JOIN SQLEADOS.Empresa e ON (LOWER(replace(empresa_razon_social, space(1), '_'))) = u.usuario_nombre
+-- --EMPRESAS
+-- PRINT('USERXROL EMPRESA') 
+--go
+--insert into SQLEADOS.UserXRol(userXRol_rol,userXRol_usuario)
+--select distinct 1,u.usuario_Id from SQLEADOS.Usuario u
+--	INNER JOIN SQLEADOS.Empresa e ON (LOWER(replace(empresa_razon_social, space(1), '_'))) = u.usuario_nombre
 
---CLIENTE
- PRINT('USERXROL CLIENTE') 
-go
-insert into SQLEADOS.UserXRol(userXRol_rol,userXRol_usuario)
-select distinct 2, u.usuario_Id from SQLEADOS.Usuario u
-	INNER JOIN SQLEADOS.Cliente c ON (LOWER(replace(c.cliente_nombre, space(1), '_'))+'_'+c.cliente_apellido) = u.usuario_nombre
+----CLIENTE
+-- PRINT('USERXROL CLIENTE') 
+--go
+--insert into SQLEADOS.UserXRol(userXRol_rol,userXRol_usuario)
+--select distinct 2, u.usuario_Id from SQLEADOS.Usuario u
+--	INNER JOIN SQLEADOS.Cliente c ON (LOWER(replace(c.cliente_nombre, space(1), '_'))+'_'+c.cliente_apellido) = u.usuario_nombre
 
---RUBRO 
+----RUBRO 
 
 
  PRINT('RUBRO') 
@@ -698,6 +804,353 @@ for insert as
 				--		AND 
 						publicacion_codigo=@indice;
 		END
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[listarFuncionalidades]
+as begin
+select funcionalidad_descripcion from [SQLeados].Funcionalidad
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[existeRol] (@nombre nvarchar(30))
+as
+begin
+declare @existe int
+set @existe = (select count(rol_Id) from [SQLeados].Rol where Rol_nombre = @nombre) 
+return @existe
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[crearRolNuevo] (@nombre nvarchar(30))
+as
+begin
+insert into [SQLeados].Rol(Rol_nombre, rol_estado)
+values(@nombre,1)
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[codigoRol] (@nombre nvarchar(30))
+as
+begin
+declare @cod int
+set @cod = (select rol_Id from [SQLeados].rol where Rol_nombre = @nombre)
+return @cod
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[crearFuncionalidad] (@codigoRol int, @codigoFunc int)
+as
+begin
+insert into [SQLeados].FuncionalidadXRol(funcionalidadXRol_rol, funcionalidadXRol_funcionalidad)
+values(@codigoRol, @codigoFunc)
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[codigoFuncionalidad] (@nombre nvarchar(30))
+as
+begin
+declare @cod int
+set @cod = (select funcionalidad_Id from [SQLeados].Funcionalidad where funcionalidad_descripcion = @nombre)
+return @cod
+end
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[cargarRoles] 
+as
+begin
+select Rol_nombre from [SQLeados].Rol
+end
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+create procedure [SQLeados].[rolHabilitado] (@nombre nvarchar(30))
+as
+begin
+declare @resultado bit
+set @resultado = (select rol_estado from [SQLeados].Rol where Rol_nombre = @nombre)
+return @resultado
+end
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[FuncionalidadesPorRol] (@Rol nvarchar(30))
+as
+begin
+select funcionalidad_descripcion from [SQLeados].FuncionalidadXRol join [SQLeados].Rol ON funcionalidadXRol_rol = rol_Id join [SQLeados].Funcionalidad on
+funcionalidad_Id = funcionalidadXRol_funcionalidad
+where Rol_nombre = @Rol
+end
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[modificarRol] (@nombre nvarchar(30), @anterior nvarchar(30))
+as
+begin
+update [SQLeados].Rol set Rol_nombre = @nombre
+where Rol_nombre = @anterior
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[eliminarFuncionalidades] (@rol int)
+as
+begin
+delete from [SQLeados].FuncionalidadXRol
+where funcionalidadXRol_rol = @rol
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[cargarRolesHabilitados] 
+as
+begin
+select Rol_nombre from [SQLeados].Rol where rol_estado = 1
+end
+go
+
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[inhabilitarRol] (@codigo int)
+as
+begin
+update [SQLeados].Rol
+set rol_estado = 0
+where rol_Id = @codigo
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[inhabilitarRolPorUsuario] (@codigo int)
+as
+begin
+delete from [SQLeados].UsuarioXRol
+where usuarioXRol_rol = @codigo
+end
+go
+
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[ValidarUsuario] (@Username nvarchar(30))
+as
+begin
+declare @Resultado int
+
+set @Resultado =CAST(
+   CASE WHEN EXISTS(SELECT usuario_nombre FROM [SQLeados].Usuario where usuario_nombre like @Username)
+    THEN 1 
+   ELSE 0 
+   END 
+AS int)
+return @Resultado
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[estaBloqueado] (@Username nvarchar(30))
+as 
+begin
+declare @bloqueado bit
+set @bloqueado = (select usuario_estado from [SQLeados].Usuario where usuario_nombre = @Username)
+return @bloqueado
+end
+go
+
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [SQLeados].[intentosFallidos] (@Username nvarchar(30))
+as 
+begin
+declare @intentos int
+set @intentos = (select Usuario_intentos from [SQLeados].Usuario where usuario_nombre = @Username)
+return @intentos
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[ValidarContra] (@Username nvarchar(30), @Password nvarchar(30))
+as
+begin
+declare @Resultado int
+declare @pre varbinary(100)
+set @pre = HASHBYTES('SHA',cast(@Password as varchar))
+set @Resultado =CAST(
+   CASE WHEN EXISTS(SELECT usuario_nombre FROM [SQLeados].Usuario where usuario_nombre like @Username and Usuario_password like @pre)
+    THEN 1 
+   ELSE 0 
+   END 
+AS int)
+return @Resultado
+end
+go
+
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[resetearIntentoFallidos] (@Username nvarchar(30))
+as 
+begin
+update [SQLeados].Usuario
+set Usuario_intentos = 0
+where usuario_nombre = @Username
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[agregarIntentoFallidos] (@Username nvarchar(30))
+as 
+begin
+update [SQLeados].Usuario
+set Usuario_intentos = (select Usuario_intentos from [SQLeados].Usuario where usuario_nombre = @Username) + 1
+where usuario_nombre = @Username
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[bloquearUsuario] (@Username nvarchar(30))
+as 
+begin
+update [SQLeados].Usuario
+set usuario_estado = 0
+where usuario_nombre = @Username
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[esAdministrador] (@Username nvarchar(30))
+as
+begin
+declare @resultado bit
+set @resultado = (select usuario_administrador from [SQLeados].Usuario where Usuario.usuario_nombre = @Username)
+return @resultado
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ONRD
+GO
+create procedure [SQLeados].[Nombreroles] (@Username nvarchar(30))
+as
+begin
+select Rol_nombre
+from [SQLeados].UsuarioXRol join [SQLeados].Rol on usuarioXRol_rol = rol_Id
+join [SQLeados].Usuario on usuarioXRol_usuario = usuario_Id
+where Usuario.usuario_nombre = @Username and rol_estado = 1
+end
+go
+
+/****** Object:  StoredProcedure [PERSISTIENDO].[actualizarContra]    Script Date: 26/06/2016 19:30:26 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[actualizarContra] (@user nvarchar(30), @pass nvarchar(30))
+as
+begin
+update [SQLeados].Usuario 
+set Usuario_password = (HASHBYTES('SHA',cast (@pass as varchar)))
+where usuario_nombre = @user
+end
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[habilitarRol] (@nombre nvarchar(30))
+as
+begin
+update [SQLeados].Rol
+set rol_estado = 1
+where Rol_nombre = @nombre
+end
+go
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [SQLeados].[cargarClientesEliminar]
+as
+begin
+select cliente_numero_documento, Cliente_apellido, Cliente_nombre, cliente_email
+from [SQLeados].Cliente join [SQLeados].Usuario on usuario_Id = cliente_usuario
+where Usuario.usuario_estado = 1
+end
+GO
 
 GO
 CREATE TRIGGER 
@@ -742,13 +1195,28 @@ for insert as
 /*
 	DE PRUEBA
 */
+
+--insert into SQLEADOS.Usuario(usuario_nombre, usuario_password,usuario_tipo, usuario_fecha_creacion) values
+--('prueba',
+--HASHBYTES('SHA2_256', '123'),
+--'Administrativo',
+--GETDATE()
+--)
+
+--insert into SQLEADOS.UserXRol(userXRol_rol, userXRol_usuario)
+--select 
+--	rol_Id,
+--	usuario_Id
+--	from SQLEADOS.Rol, SQLEADOS.Usuario
+--		where usuario_nombre LIKE 'prueba'
+
 insert into SQLEADOS.Usuario(usuario_nombre, usuario_password,usuario_tipo, usuario_fecha_creacion) values
 ('prueba',
 HASHBYTES('SHA2_256', '123'),
 'Administrativo',
-GETDATE()
-)
+GETDATE())
 
+/*
 insert into SQLEADOS.UserXRol(userXRol_rol, userXRol_usuario)
 select 
 	rol_Id,
@@ -756,3 +1224,7 @@ select
 	from SQLEADOS.Rol, SQLEADOS.Usuario
 		where usuario_nombre LIKE 'prueba'
 
+SELECT usuario_Id FROM [GD2C2018].[SQLEADOS].[Usuario] 
+	where usuario_nombre LIKE 'prueba' AND 
+		SQLEADOS.func_coincide_fecha_creacion(usuario_fecha_creacion, GETDATE()) = 1
+		*/
