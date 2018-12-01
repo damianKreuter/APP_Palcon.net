@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,6 +74,12 @@
     </Compile>
     <Compile Include="Abm Cliente\ModificarClienteSeleccionado.Designer.cs">
       <DependentUpon>ModificarClienteSeleccionado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Abm Cliente\ModificarClienteSelected.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abm Cliente\ModificarClienteSelected.Designer.cs">
+      <DependentUpon>ModificarClienteSelected.cs</DependentUpon>
     </Compile>
     <Compile Include="Abm Empresa Espectaculo\ABMEmpresa.cs">
       <SubType>Form</SubType>
@@ -116,11 +123,41 @@
     <Compile Include="Abm Rol\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Abm Rol\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abm Rol\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Abm Rol\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abm Rol\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Abm Rol\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abm Rol\Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Abm Rubro\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Abm Rubro\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM Usuario\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM Usuario\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM Usuario\Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM Usuario\Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
     </Compile>
     <Compile Include="Canje Puntos\Form1.cs">
       <SubType>Form</SubType>
@@ -138,12 +175,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Editar Publicacion\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Generar Publicacion\Form1.cs">
@@ -164,11 +195,30 @@
     <Compile Include="Historial Cliente\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Listado Estadistico\Form1.cs">
+    <Compile Include="Inicio\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Listado Estadistico\Form1.Designer.cs">
+    <Compile Include="Inicio\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio\Usuario.cs" />
+    <Compile Include="Listado Estadistico\ListadoEstadistico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listado Estadistico\ListadoEstadistico.Designer.cs">
+      <DependentUpon>ListadoEstadistico.cs</DependentUpon>
     </Compile>
     <Compile Include="Login y seguridad\LOGIN.cs">
       <SubType>Form</SubType>
@@ -196,15 +246,11 @@
     <Compile Include="Registro de Usuario\RegistroUser.Designer.cs">
       <DependentUpon>RegistroUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Support\CasoData.cs" />
     <Compile Include="Support\DBConsulta.cs" />
     <Compile Include="Support\ConsultasSQL.cs" />
-    <Compile Include="Support\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Support\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Support\AyudaExtra.cs" />
+    <Compile Include="Support\Trimestre.cs" />
     <Compile Include="Support\volver.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -226,6 +272,9 @@
     <EmbeddedResource Include="Abm Cliente\ModificarClienteSeleccionado.resx">
       <DependentUpon>ModificarClienteSeleccionado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Abm Cliente\ModificarClienteSelected.resx">
+      <DependentUpon>ModificarClienteSelected.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Abm Empresa Espectaculo\ABMEmpresa.resx">
       <DependentUpon>ABMEmpresa.cs</DependentUpon>
     </EmbeddedResource>
@@ -241,8 +290,32 @@
     <EmbeddedResource Include="Abm Empresa Espectaculo\ModificarEmpresaElegida.resx">
       <DependentUpon>ModificarEmpresaElegida.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Abm Rol\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Abm Rol\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Abm Rol\Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Usuario\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Usuario\Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listado Estadistico\ListadoEstadistico.resx">
+      <DependentUpon>ListadoEstadistico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login y seguridad\LOGIN.resx">
       <DependentUpon>LOGIN.cs</DependentUpon>
@@ -264,9 +337,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registro de Usuario\RegistroUSer.resx">
       <DependentUpon>RegistroUser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Support\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Support\volver.resx">
       <DependentUpon>volver.cs</DependentUpon>

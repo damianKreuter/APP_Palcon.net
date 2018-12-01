@@ -46,7 +46,7 @@ namespace PalcoNet.Abm_Empresa_Espectaculo
             }
             if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxPiso.Text, @"^\d+$"))
             {
-                MessageBox.Show("Sólo se permiten numeros en el Nro de calle", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Sólo se permiten numeros en el Piso", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxTelefono.Text, @"^\d+$"))
@@ -81,7 +81,7 @@ namespace PalcoNet.Abm_Empresa_Espectaculo
             String localidad = textBoxLocalidad.Text;
             DateTime hoy = DateTime.Today;
             ConsultasSQLEmpresa.AgregarEmpresa(razonSocial, cuit, ciudad, mail, telefono, usuario, hoy);
-            ConsultasSQLEmpresa.AgregarDomicilio(calle, nroCalle, piso, dto, localidad, codPostal, razonSocial, cuit, null, null);
+            ConsultasSQLEmpresa.AgregarDomicilio(calle, nroCalle, piso, dto, localidad, codPostal, "Empresa");
             this.limpiarCuadrosDeTexto();
 
         }

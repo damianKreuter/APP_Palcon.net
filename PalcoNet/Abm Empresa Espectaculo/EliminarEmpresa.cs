@@ -78,12 +78,70 @@ namespace PalcoNet.Abm_Empresa_Espectaculo
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            String razonSocial = textBoxRazonSocial.Text;
+            String cuit = textBoxCuit.Text;
+            String email = textBoxMail.Text;
 
+            if (textBoxRazonSocial.Text.Trim() == "" | textBoxCuit.Text.Trim() == "" | textBoxMail.Text.Trim() == "")
+            {
+                MessageBox.Show("Faltan completar campos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else if (!ConsultasSQLEmpresa.existeCuit(textBoxCuit.Text))
+            {
+                MessageBox.Show("La empresa ingresada ya esta dado de baja o no existe. Para darlo de alta ingrese en Modificar empresa.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                var respuesta = MessageBox.Show("¿Estas seguro?", "Confirme borrado", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (respuesta == DialogResult.Yes)
+                {
+
+                    ConsultasSQLEmpresa.darDeBajaEmpresa(razonSocial,cuit,email);
+                    this.limpiarCuadrosDeTexto();
+                    ConsultasSQLEmpresa.cargarGriddEmpresa(dataGriddView1, "", "", "");
+                }
+                else return;
+            }
+
+
+
+
+        }
+
+        private void limpiarCuadrosDeTexto()
+        {
+            textBoxRazonSocial.Text = "";
+            textBoxMail.Text = "";
+            textBoxCuit.Text = "";
+            
         }
 
         private void dataGriddView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
+
+        private void txtCuit_KeyUp(object sender, KeyEventArgs e)
+        {
+
+            ConsultasSQLEmpresa.cargarGriddEmpresa(dataGriddView1, textBoxRazonSocial.Text, textBoxCuit.Text, textBoxMail.Text);
+        }
+
+        private void txtMail_KeyUp(object sender, KeyEventArgs e)
+        {
+
+            ConsultasSQLEmpresa.cargarGriddEmpresa(dataGriddView1, textBoxRazonSocial.Text, textBoxCuit.Text, textBoxMail.Text);
+        }
+
+        private void txtRazonSocial_KeyUp(object sender, KeyEventArgs e)
+        {
+
+            ConsultasSQLEmpresa.cargarGriddEmpresa(dataGriddView1, textBoxRazonSocial.Text, textBoxCuit.Text, textBoxMail.Text);
+        }
+
+     
+
     }
 }
