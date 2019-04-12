@@ -1,0 +1,318 @@
+\\VBOXSVR\PalcoNet\src\PalcoNet\bin\Debug\PalcoNet.exe.config
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe.config
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.pdb
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ABMEmpresa.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.AltaEmpresa.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.EliminarEmpresa.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificacionEmpresa.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificarEmpresaElegida.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Properties.Resources.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csproj.GenerateResource.Cache
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.exe
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.pdb
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csprojResolveAssemblyReference.cache
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe.config
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.exe
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.pdb
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csprojResolveAssemblyReference.cache
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ABMCliente.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.AltaCliente.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.EliminarCliente.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ABMEmpresa.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.AltaEmpresa.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.EliminarEmpresa.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificacionEmpresa.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificarEmpresaElegida.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form1.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Properties.Resources.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csproj.GenerateResource.Cache
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.Form1.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.volver.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.pdb
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarClienteSeleccionado.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarCliente.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.LOGIN.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.SeleccionarRolDeUser1.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroUser.resources
+C:\Damian\TP GDD 20158\TPVERSION1.1\TP_PALCONET_GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroCliente.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\bin\Debug\PalcoNet.exe.config
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.exe
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.csprojResolveAssemblyReference.cache
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ABMCliente.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.AltaCliente.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.EliminarCliente.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarCliente.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarClienteSeleccionado.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ABMEmpresa.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.AltaEmpresa.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.EliminarEmpresa.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificacionEmpresa.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificarEmpresaElegida.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Form1.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.LOGIN.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.SeleccionarRolDeUser1.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Properties.Resources.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroCliente.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroUser.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Support.Form1.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.Support.volver.resources
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.csproj.GenerateResource.Cache
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\bin\Debug\PalcoNet.exe
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\bin\Debug\PalcoNet.pdb
+C:\Damian\TP GDD 20158\APP_PALCO.NET\APP_Palcon.net\PalcoNet\obj\Debug\PalcoNet.pdb
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe.config
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.pdb
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ABMCliente.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.AltaCliente.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.EliminarCliente.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarCliente.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarClienteSeleccionado.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ABMEmpresa.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.AltaEmpresa.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.EliminarEmpresa.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificacionEmpresa.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificarEmpresaElegida.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form2.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form3.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form4.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.Form2.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.Form8.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form1.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form2.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form3.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Listado_Estadistico.ListadoEstadistico.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.LOGIN.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.SeleccionarRolDeUser1.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Properties.Resources.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroCliente.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroUser.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.volver.resources
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csproj.GenerateResource.Cache
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.exe
+C:\Users\gigi\Downloads\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.pdb
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe.config
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.exe
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.pdb
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.pdb
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ABMCliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.AltaCliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.EliminarCliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarCliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarClienteSeleccionado.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ABMEmpresa.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.AltaEmpresa.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.EliminarEmpresa.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificacionEmpresa.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificarEmpresaElegida.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form2.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form3.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form4.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.Form2.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.Form8.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form1.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form2.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form3.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Listado_Estadistico.ListadoEstadistico.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.LOGIN.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.SeleccionarRolDeUser1.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Properties.Resources.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroCliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroUser.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.volver.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csproj.GenerateResource.Cache
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe.config
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.exe
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.pdb
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.pdb
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csprojResolveAssemblyReference.cache
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ABMCliente.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.AltaCliente.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.EliminarCliente.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarCliente.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarClienteSeleccionado.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarClienteSelected.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ABMEmpresa.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.AltaEmpresa.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.EliminarEmpresa.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificacionEmpresa.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificarEmpresaElegida.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form2.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form3.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form4.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.Form2.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.Form8.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form1.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form2.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form3.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Listado_Estadistico.ListadoEstadistico.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.LOGIN.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.SeleccionarRolDeUser1.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Properties.Resources.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroCliente.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroUser.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.volver.resources
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csproj.GenerateResource.Cache
+C:\Damian\TP DE GDD\PRUEBA\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.tablaPaginada.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe.config
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.exe
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.pdb
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csprojResolveAssemblyReference.cache
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ABMCliente.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.AltaCliente.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.EliminarCliente.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarCliente.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarClienteSeleccionado.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ABMEmpresa.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.AltaEmpresa.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.EliminarEmpresa.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificacionEmpresa.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificarEmpresaElegida.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form2.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form3.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.Form4.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.Form2.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.Form8.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Canje_Puntos.canjePuntos.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form1.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form2.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Form3.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Listado_Estadistico.ListadoEstadistico.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.LOGIN.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.SeleccionarRolDeUser1.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Properties.Resources.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroCliente.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroUser.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.volver.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csproj.GenerateResource.Cache
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.pdb
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Historial_Cliente.Historial_de_cliente.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.TablaPaginadas.resources
+C:\Damian\TP DE GDD\POR SI LA CAGO\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Historial_Cliente.Historial.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Canje_Puntos.canjePuntos.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Historial_Cliente.Historial_de_cliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Historial_Cliente.Historial.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.TablaPaginadas.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Publicacion.Generar_publicacion.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.Elegir_categoria.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.ComprarPrincipal.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.ElegirTipoAsiento.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csprojResolveAssemblyReference.cache
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.ConfirmarCompra.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.AgregarTarjeta.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Canje_Puntos.Canjear.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.tablaPaginada.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.EditarPublicacion.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.EditarCosasDePublicacion.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.Seleccionar1Categoria.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ABMCliente.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.AltaCliente.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.EliminarCliente.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarCliente.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarClienteSeleccionado.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Grado.GradoPublicacion.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.ABMROL.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.FormCrearNuevoRol.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.FormModificarRol.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.deshabilitarRol.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Rubro.ABMRUBRO.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.ABMUSUARIO.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.darDeBajaOtroAdmin.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.IngresarNuevoAdmin.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.ModificarRolDeUser.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.rolesDeUserr.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.tipoUserAAgregar.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Canje_Puntos.canjePuntos.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.AgregarTarjeta.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.ConfirmarCompra.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.ComprarPrincipal.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.Elegir_categoria.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.ElegirTipoAsiento.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Canje_Puntos.Canjear.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.EditarCosasDePublicacion.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.editarInfoOUbicaciones.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.EditarPublicacion.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.EditarUbicaciones.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.PonerCaracteristicasDeUbicacion.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.Seleccionar1Categoria.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Publicacion.AltaPublicacion.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Publicacion.tablaPublicacion.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Rendicion_Comisiones.BuscarEmpresa.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Rendicion_Comisiones.BuscarPublicacionSinCobrar.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Rendicion_Comisiones.GenerarFacturaDeComisiones.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Historial_Cliente.Historial.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Inicio.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Explorador.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.CambiarContra.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Listado_Estadistico.ListadoEstadistico.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.LOGIN.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.SeleccionarRolDeUser1.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroUser.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.TablaPaginadas.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.volver.resources
+C:\Users\chris\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.tablaPaginada.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe.config
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.exe
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\bin\Debug\PalcoNet.pdb
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csprojResolveAssemblyReference.cache
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ABMCliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.AltaCliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.EliminarCliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarCliente.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Cliente.ModificarClienteSeleccionado.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ABMEmpresa.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.AltaEmpresa.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.EliminarEmpresa.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificacionEmpresa.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Empresa_Espectaculo.ModificarEmpresaElegida.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Grado.GradoPublicacion.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.ABMROL.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.FormCrearNuevoRol.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.FormModificarRol.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Rol.deshabilitarRol.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Abm_Rubro.ABMRUBRO.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.ABMUSUARIO.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.darDeBajaOtroAdmin.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.IngresarNuevoAdmin.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.ModificarRolDeUser.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.rolesDeUserr.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.ABM_Usuario.tipoUserAAgregar.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Canje_Puntos.canjePuntos.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.AgregarTarjeta.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.ConfirmarCompra.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.ComprarPrincipal.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.Elegir_categoria.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Comprar.ElegirTipoAsiento.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Canje_Puntos.Canjear.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.EditarCosasDePublicacion.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.editarInfoOUbicaciones.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.EditarPublicacion.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.EditarUbicaciones.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.FINALIZARUNAPUBLICACION.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.PonerCaracteristicasDeUbicacion.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Editar_Publicacion.Seleccionar1Categoria.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Publicacion.AltaPublicacion.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Publicacion.tablaPublicacion.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Rendicion_Comisiones.BuscarEmpresa.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Rendicion_Comisiones.BuscarPublicacionSinCobrar.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Generar_Rendicion_Comisiones.GenerarFacturaDeComisiones.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Historial_Cliente.Historial.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Inicio.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Explorador.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.CambiarContra.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Listado_Estadistico.ListadoEstadistico.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.LOGIN.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Login_y_seguridad.SeleccionarRolDeUser1.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Properties.Resources.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Registro_de_Usuario.RegistroUser.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.TablaPaginadas.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.Support.volver.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.tablaPaginada.resources
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.csproj.GenerateResource.Cache
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.exe
+C:\Damian\TP DE GDD\TP_PALCONET_GDD\DESCARTE\TP_PALCONET_GDD\PalcoNet\obj\Debug\PalcoNet.pdb
